@@ -1,7 +1,7 @@
-# Simple Discord Bot DMing
+# Simple Rotating Discord Bot DMing
 
 ## About
-**Simple Discord Bot DMing** is a Java-based Discord bot built using JDA (Java Discord API). It automatically sends direct messages (DMs) to all accessible users in a Discord server while avoiding staff members.
+**Simple Rotating Discord Bot DMing** is a Java-based Discord bot built using JDA (Java Discord API). It automatically sends direct messages (DMs) to all accessible users in a Discord server while avoiding staff members.
 
 This tool is useful for:
 - **Testing automated DMs**
