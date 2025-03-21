@@ -45,7 +45,7 @@ public class Main extends ListenerAdapter {
 
     private static void sendTestDMs(Guild guild) {
         guild.loadMembers().onSuccess(members -> {
-            Collections.shuffle(members); // Shuffle the order for randomness
+            Collections.shuffle(members);
             int delay = 0;
 
             for (Member member : members) {
@@ -64,7 +64,7 @@ public class Main extends ListenerAdapter {
                         }, error -> System.err.println("Could not open DM with: " + member.getUser().getName()));
                     }, delay, TimeUnit.SECONDS);
 
-                    delay += 10 + new Random().nextInt(10); // Random 10–19 sec delay per DM
+                    delay += 10 + new Random().nextInt(10); // Random 10–19 second delay per DM
                 }
             }
         });
